@@ -216,9 +216,9 @@ public class appDemo extends Application
                 {
                     if (((String) table.getItems().get(i).getCode()).equals(input))
                     {
-                        Item x = new Item(tfC.getText(),tfB.getText(),tfN.getText(),Integer.parseInt(tfQ.getText()),
+                        Item ge = new Item(tfC.getText(),tfB.getText(),tfN.getText(),Integer.parseInt(tfQ.getText()),
                                 Integer.parseInt(tfP.getText()),tfD.getText(),(String)comboBox1.getValue().toString());
-                        table.getItems().set(i,x);
+                        table.getItems().set(i,ge);
                         flse = true;
                     }
                 }
